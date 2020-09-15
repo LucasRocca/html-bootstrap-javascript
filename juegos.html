@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- conectamos a los estilos de bootstrap y css -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="estilos.css">
+
+    <title>Adivinanza</title>
+</head>
+<body>
+     <!-- Navegador -->
+     <header>
+         <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light">
+            <a class="navbar-brand" href="index.html">Futbol 5</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" 
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#tabla-horarios">Horarios</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="protocolojuga.html">ProtocoloCOVID-19</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="juegos.html">Juegos</a>
+                    </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Buscar" aria-label="search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
+                </form>
+            </div>
+            </nav>
+        </div>
+     </header>
+     <!-- Seccion -->
+    <section>
+        <div class="container">
+            <div class=" text-center bg-warning" style= "padding: 5%";>
+                <form class="form-inline-block">
+                    <div class="text-center">
+                        <h3>ADIVINANZA</h3>
+                        <p> ¿Cuantos jugadores participan en un partido de Fútbol 5? <p>
+                    </div>
+                    <div class="form-group">
+                        <div class="col">
+                          <input type="text" class="form-control" id="txtCantJugadores" required placeholder="Cantidad de jugadores">
+                          <br>
+                          <!-- <button type="submit">Enviar</button> -->
+                          <p  class="btn btn-primary mb-2" id="btnEnviarAdivinanza" > Enviar </p>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class=" text-center " style= "padding: 5%; background-color: aquamarine;">
+                <form class="form-inline-block">
+                    <div class="text-center">
+                        <h3>ANOTATE Y GANA</h3>
+                        <p> Completa todos los campos del formulario y participa por el sorteo de inscripcion <br>
+                            para vos y todo tu equipo en el proximo torneo "JUGA FUTBOL 5 ZENON PEREYRA"  <p>
+                    </div>
+                    <div class=" text-center">
+                        <div class="form-inline-block">
+                            <div class="form-group">
+                                <input type="text" class="form-control" id="txtNombre" required placeholder="Nombre">
+                            </div>
+                            <div class="form-group">
+                                <input type="text" class="form-control" id="txtApellido" required placeholder="Apellido">
+                            </div>
+                        </div>
+                       <div class="form-inline-block">
+                            <div class="form-group">
+                                <input type="email" class="form-control" id="txtEmail" required placeholder="Email">
+                            </div>
+                            <div class="from-group">
+                                <textarea class="form-control" id="txtArea" rows="3" required placeholder="Puedes realizar una consulta y se respondera via email"></textarea>
+                                <br>
+                                <button type="submit" class="btn btn-primary mb-2" id="btnEnviarSorteo">Enviar</button>
+                            </div>
+                       </div>
+                    </div>
+                </form>
+            </div>
+               <!-- Footer -->
+            <div>
+                <footer class="page-footer font-small blue">
+                    <div>
+                            <p> Seguinos en nuestras redes sociales →
+                            <a href="https://www.facebook.com/jugafutbol5zenonpereyra" target="_blank"> Facebook </a>
+                            <a href=""> Instagram </a>
+                            <a href=""> Twitter </a>
+                            <a href=""> YouTube </a>
+                            </p>
+                        <!-- Copyright -->
+                        <div class="footer-copyright text-left"> © 2020 Copyright - Todos los derechos reservados </div>
+                    </div>
+                </footer>
+            </div>
+        </div>
+    </section>
+   
+    <script src="juego.js" ></script>
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>

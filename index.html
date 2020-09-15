@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- conectamos a los estilos de bootstrap y css -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="estilos.css">
+    
+    <title>Futbol 5</title>
+</head>
+
+<body>
+    <div class="container">
+        <!-- Navegador -->
+        <header>
+             <nav class="navbar navbar-expand-lg navbar-light">
+                <a class="navbar-brand" href="index.html">Futbol 5</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" 
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                      <a class="nav-link" href="#tabla-horarios">Horarios</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="protocolojuga.html">ProtocoloCOVID-19</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="juegos.html">Juegos</a>
+                      </li>
+                  </ul>
+                  <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Buscar" aria-label="search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
+                  </form>
+                </div>
+              </nav>
+        </header>
+
+        <!-- Caja Principal -->
+        <div class="main" >
+            <section class="row">
+                    <article class="col-xs-12 col-sm-12 col-md-9 col-lg-9">
+                            <h1> Futbol 5 Zenon Pereyra </h1>
+                        <div id="carouselImg" class="carousel slide" data-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img class="d-block w-100" src="imagenes/frentef5.jpg" alt="F5 Zenon Pereyra">
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block w-100" src="imagenes/canchaf5.jpg" alt="F5 Zenon Pereyra">                                  
+                                </div>
+                                 <div class="carousel-item">
+                                    <img class="d-block w-100" src="imagenes/dentrof5.jpg" alt="F5 Zenon Pereyra">
+                                  </div>
+                            </div>
+                                <a class="carousel-control-prev" href="#carouselImg" role="button" data-slide="prev">
+                                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                  <span class="sr-only">Previous</span>
+                                </a>
+                                <a class="carousel-control-next" href="#carouselImg" role="button" data-slide="next">
+                                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                  <span class="sr-only">Next</span>
+                                </a>
+                        </div>
+                        <div class="container">
+                            <p> Futbol 5 Zenon Pereyra "COMPLEJO JUGA" es un espacio donde se puede disfrutar de un partido con amigos y/o familiares.
+                                Debido a la modalidad adoptada actualmente, debes conocer el nuevo <a href="protocolojuga.html" target="_blank">
+                                <i>ProtocoloCOVID-19</i></a>  antes de entrar al complejo.
+                            </p>
+                            <p>
+                                <b><i>Historia del Futbol 5</i></b> <br>
+                                Se inició en México en la última mitad de la década de los sesentas con el nombre de "Five a side" (Fútbol cinco) 
+                                practicado primero por los equipos profesionales de fútbol soccer, quienes en una cancha de hockey utilizaron el 
+                                redondel y cubrieron el piso con pasto sintético. Posteriormente esta actividad se popularizó entre la población 
+                                en general. En los años 1970 esta actividad llega a los Estados Unidos en donde se comenzó a practicar con el nombre 
+                                de "Indoor Soccer" debido a que se jugaba en interiores (indoors) a diferencia del Fútbol Soccer el cual se practicaba 
+                                en exteriores (outdoors). En 1993 se creó otra liga profesional en Estados Unidos, la <b>"Continental Indoor Soccer League"</b> (CISL).
+
+                                Existen ligas profesionales en Alemania, Países Bajos, España, Reino Unido, Australia, México, Brasil, Canadá, Guyana, 
+                                Colombia y Estados Unidos; combina el balompié tradicional y el fútbol sala. Su popularidad creció en Latinoamérica bajo 
+                                la influencia de Iván Zamorano, Diego Maradona, Alejandro Mancuso, Carlos Valderrama, Gabriel Cedrés y Rivelino Carassa.
+                            </p>
+                        </div>
+                    </article>
+                    <!-- Aparte -->
+                    <aside class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
+                        <div class="container">
+                            <h2> <b>El Fútbol 5 regresará solo con protocolo de "metegol humano"</b> </h2>
+                            <br>
+                            <p> 
+                                La municipalidad se reunió este martes y habilitó nuevas actividades en Zenon Pereyra.<br>
+                                Uno de los puntos que se trató en el encuentro fue la reactivación de las canchas de fútbol 5, afortunadamente,
+                                dicha actividad logró el consenso necesario para regresar ya que cumple con nuevos requisitos que aprueba 
+                                el Gobierno Nacional.<br>
+                                Cabe destacar que propietarios de canchas de fútbol anunciaron la semana pasada que volverán a la actividad a
+                                partir del lunes 7 de septiembre.<br>
+                                Los empresarios prepararon un protocolo para aplicar esta actividad, basado en experiencias que han tenido
+                                otros paises.<br> La vuelta a la actividad “es imprescindible para la recuperación económica del
+                                sector”.
+                            </p>
+                        </div>
+                    </aside>
+            </section>
+
+            <!-- Tabla -->
+            <div class="container">
+                <div class="table-responsive">
+                    <table class="table table-bordered table-hover" id="tabla-horarios" >
+                        <tr>
+                            <th><b>Horarios</b></th>
+                            <th><b>Domingo</b></th>
+                            <th><b>Lunes</b></th>
+                            <th><b>Martes</b></th>
+                            <th><b>Miercoles</b></th>
+                            <th><b>Jueves</b></th>
+                            <th><b>Viernes</b></th>
+                            <th><b>Sabado</b></th>
+                        </tr>
+                        <tr>
+                            <td><b>18:00 hs</b></td>
+                            <td>Pedro</td>
+                            <td></td>
+                            <td>Pablo</td>
+                            <td></td>
+                            <td>Juan</td>
+                            <td>Matias</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td><b>19:00 hs</b></td>
+                            <td>Nicolas</td>
+                            <td>Santiago</td>
+                            <td>Roberto</td>
+                            <td>Claudio</td>
+                            <td>Juan</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td><b>20:00 hs</b></td>
+                            <td></td>
+                            <td>Mateo</td>
+                            <td>Rafael</td>
+                            <td></td>
+                            <td>Cristian</td>
+                            <td></td>
+                            <td>Samuel</td>
+                        </tr>
+                        <tr>
+                            <td><b>21:00 hs</b></td>
+                            <td>Julian</td>
+                            <td>Josue</td>
+                            <td>Matias</td>
+                            <td>Carlos</td>
+                            <td>Andres</td>
+                            <td>Ramon</td>
+                            <td></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <!-- Footer -->
+            <footer class="page-footer font-small blue">
+                <div>
+                        <p> Seguinos en nuestras redes sociales →
+                        <a href="https://www.facebook.com/jugafutbol5zenonpereyra" target="_blank"> Facebook </a>
+                        <a href=""> Instagram </a>
+                        <a href=""> Twitter </a>
+                        <a href=""> YouTube </a>
+                        </p>
+                    <!-- Copyright -->
+                    <div class="footer-copyright text-left"> © 2020 Copyright - Todos los derechos reservados </div>
+                </div>
+            </footer>
+        </div>
+    </div>
+
+    <script src="juego.js" ></script>
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>

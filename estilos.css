@@ -1,0 +1,19 @@
+
+.navbar{
+    background-color: rgba(30, 67, 90, 0.315);
+}
+.main{
+    background-color: rgba(183, 187, 182, 0.247);
+    margin: auto;
+}
+footer{
+    background-color: rgba(183, 187, 182, 0.247);
+    padding: 2%;
+
+}
+/*titulo de la pagina index.html*/
+h1{
+    text-align: center;
+    color: rgb(116, 116, 53);
+}
+
